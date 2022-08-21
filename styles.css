@@ -1,0 +1,63 @@
+h3{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+body{
+    margin: 0px;
+}
+
+header,
+footer{
+    background: #1F2937;
+}
+
+header{
+    padding: 0 150px;
+    color: #f9faf8;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    max-height: 100px;
+}
+
+.left-nav{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.header-content{
+    display: flex;
+}
+
+.left-content{
+    overflow-wrap: break-word;
+    max-width: 400px;
+    width: 400px;
+}
+
+.right-content{
+    max-width: 400px;
+    width: 400px;
+}
+
+.header-image a{
+    display: block;
+    background: cornflowerblue; /*sets the background of this element (here a solid colour)*/
+    padding-left: 20px; /*sets 'padding'*/
+    padding-right: 20px; /*sets 'padding'*/
+    line-height: 50px; /*for this, it sets vertical alignment*/
+  
+}
